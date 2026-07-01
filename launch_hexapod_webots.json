@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Hexapod Controller",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/controllers/hexapod/hexapod.py",
+      "cwd": "${workspaceFolder}/controllers/hexapod",
+      "console": "integratedTerminal",
+      "env": {
+        "WEBOTS_HOME": "C:\\Program Files\\Webots",
+        "PYTHONPATH": "C:\\Program Files\\Webots\\lib\\controller\\python",
+        "PATH": "C:\\Program Files\\Webots\\lib\\controller;${env:PATH}"
+      }
+    }
+  ]
+}
